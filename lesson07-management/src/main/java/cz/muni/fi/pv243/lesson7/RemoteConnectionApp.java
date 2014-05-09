@@ -44,7 +44,7 @@ public class RemoteConnectionApp {
 
 
         ModelControllerClient client = RemoteConnectionApp.createClient(
-                InetAddress.getByName("127.0.0.1"), 9999, "ferda", "mravenec1*".toCharArray(), "ManagementRealm");
+                InetAddress.getByName("127.0.0.1"), 9990, "ferda", "mravenec1*".toCharArray(), "ManagementRealm");
 
 
         ModelNode op = new ModelNode();
